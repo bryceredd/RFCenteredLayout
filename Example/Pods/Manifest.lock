@@ -1,0 +1,10 @@
+PODS:
+  - ConciseKit (0.1.2)
+
+DEPENDENCIES:
+  - ConciseKit (= 0.1.2)
+
+SPEC CHECKSUMS:
+  ConciseKit: 1e086a66d098ba160ca5faa86458a0431b280b30
+
+COCOAPODS: 0.25.0

@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0273C6591804752E00319EB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0273C6581804752E00319EB4 /* Foundation.framework */; };
+		0273C65B1804752E00319EB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0273C65A1804752E00319EB4 /* CoreGraphics.framework */; };
+		0273C65D1804752E00319EB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0273C65C1804752E00319EB4 /* UIKit.framework */; };
+		0273C6631804752E00319EB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0273C6611804752E00319EB4 /* InfoPlist.strings */; };
+		0273C6651804752E00319EB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0273C6641804752E00319EB4 /* main.m */; };
+		0273C6691804752E00319EB4 /* RFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0273C6681804752E00319EB4 /* RFAppDelegate.m */; };
+		0273C66C1804752E00319EB4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0273C66A1804752E00319EB4 /* Main_iPhone.storyboard */; };
+		0273C66F1804752E00319EB4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0273C66D1804752E00319EB4 /* Main_iPad.storyboard */; };
+		0273C6721804752E00319EB4 /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0273C6711804752E00319EB4 /* RFViewController.m */; };
+		0273C6741804752E00319EB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0273C6731804752E00319EB4 /* Images.xcassets */; };
+		0273C67B1804752F00319EB4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0273C67A1804752F00319EB4 /* XCTest.framework */; };
+		0273C67C1804752F00319EB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0273C6581804752E00319EB4 /* Foundation.framework */; };
+		0273C67D1804752F00319EB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0273C65C1804752E00319EB4 /* UIKit.framework */; };
+		0273C6851804752F00319EB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0273C6831804752F00319EB4 /* InfoPlist.strings */; };
+		0273C6871804752F00319EB4 /* CenteredLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0273C6861804752F00319EB4 /* CenteredLayoutTests.m */; };
+		0273C6961804888E00319EB4 /* RFCenteredLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0273C6951804888E00319EB4 /* RFCenteredLayout.m */; };
+		D9A4F0B65101455BACA84686 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA1DC27833C4C7EB1E7B2E0 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0273C67E1804752F00319EB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0273C64D1804752E00319EB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0273C6541804752E00319EB4;
+			remoteInfo = CenteredLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0273C6551804752E00319EB4 /* CenteredLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenteredLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0273C6581804752E00319EB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0273C65A1804752E00319EB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0273C65C1804752E00319EB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0273C6601804752E00319EB4 /* CenteredLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CenteredLayout-Info.plist"; sourceTree = "<group>"; };
+		0273C6621804752E00319EB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0273C6641804752E00319EB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0273C6661804752E00319EB4 /* CenteredLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CenteredLayout-Prefix.pch"; sourceTree = "<group>"; };
+		0273C6671804752E00319EB4 /* RFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFAppDelegate.h; sourceTree = "<group>"; };
+		0273C6681804752E00319EB4 /* RFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFAppDelegate.m; sourceTree = "<group>"; };
+		0273C66B1804752E00319EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0273C66E1804752E00319EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0273C6701804752E00319EB4 /* RFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
+		0273C6711804752E00319EB4 /* RFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
+		0273C6731804752E00319EB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0273C6791804752F00319EB4 /* CenteredLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenteredLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0273C67A1804752F00319EB4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0273C6821804752F00319EB4 /* CenteredLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CenteredLayoutTests-Info.plist"; sourceTree = "<group>"; };
+		0273C6841804752F00319EB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0273C6861804752F00319EB4 /* CenteredLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenteredLayoutTests.m; sourceTree = "<group>"; };
+		0273C6941804888E00319EB4 /* RFCenteredLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RFCenteredLayout.h; path = ../../RFCenteredLayout.h; sourceTree = "<group>"; };
+		0273C6951804888E00319EB4 /* RFCenteredLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RFCenteredLayout.m; path = ../../RFCenteredLayout.m; sourceTree = "<group>"; };
+		3F9E0286FEAD498597D31791 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AFA1DC27833C4C7EB1E7B2E0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0273C6521804752E00319EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0273C65B1804752E00319EB4 /* CoreGraphics.framework in Frameworks */,
+				0273C65D1804752E00319EB4 /* UIKit.framework in Frameworks */,
+				0273C6591804752E00319EB4 /* Foundation.framework in Frameworks */,
+				D9A4F0B65101455BACA84686 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0273C6761804752F00319EB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0273C67B1804752F00319EB4 /* XCTest.framework in Frameworks */,
+				0273C67D1804752F00319EB4 /* UIKit.framework in Frameworks */,
+				0273C67C1804752F00319EB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0273C64C1804752E00319EB4 = {
+			isa = PBXGroup;
+			children = (
+				0273C65E1804752E00319EB4 /* CenteredLayout */,
+				0273C6801804752F00319EB4 /* CenteredLayoutTests */,
+				0273C6571804752E00319EB4 /* Frameworks */,
+				0273C6561804752E00319EB4 /* Products */,
+				3F9E0286FEAD498597D31791 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		0273C6561804752E00319EB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0273C6551804752E00319EB4 /* CenteredLayout.app */,
+				0273C6791804752F00319EB4 /* CenteredLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0273C6571804752E00319EB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0273C6581804752E00319EB4 /* Foundation.framework */,
+				0273C65A1804752E00319EB4 /* CoreGraphics.framework */,
+				0273C65C1804752E00319EB4 /* UIKit.framework */,
+				0273C67A1804752F00319EB4 /* XCTest.framework */,
+				AFA1DC27833C4C7EB1E7B2E0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0273C65E1804752E00319EB4 /* CenteredLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0273C690180475F800319EB4 /* RFCenteredLayout */,
+				0273C6671804752E00319EB4 /* RFAppDelegate.h */,
+				0273C6681804752E00319EB4 /* RFAppDelegate.m */,
+				0273C66A1804752E00319EB4 /* Main_iPhone.storyboard */,
+				0273C66D1804752E00319EB4 /* Main_iPad.storyboard */,
+				0273C6701804752E00319EB4 /* RFViewController.h */,
+				0273C6711804752E00319EB4 /* RFViewController.m */,
+				0273C6731804752E00319EB4 /* Images.xcassets */,
+				0273C65F1804752E00319EB4 /* Supporting Files */,
+			);
+			path = CenteredLayout;
+			sourceTree = "<group>";
+		};
+		0273C65F1804752E00319EB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0273C6601804752E00319EB4 /* CenteredLayout-Info.plist */,
+				0273C6611804752E00319EB4 /* InfoPlist.strings */,
+				0273C6641804752E00319EB4 /* main.m */,
+				0273C6661804752E00319EB4 /* CenteredLayout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0273C6801804752F00319EB4 /* CenteredLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				0273C6861804752F00319EB4 /* CenteredLayoutTests.m */,
+				0273C6811804752F00319EB4 /* Supporting Files */,
+			);
+			path = CenteredLayoutTests;
+			sourceTree = "<group>";
+		};
+		0273C6811804752F00319EB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0273C6821804752F00319EB4 /* CenteredLayoutTests-Info.plist */,
+				0273C6831804752F00319EB4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0273C690180475F800319EB4 /* RFCenteredLayout */ = {
+			isa = PBXGroup;
+			children = (
+				0273C6941804888E00319EB4 /* RFCenteredLayout.h */,
+				0273C6951804888E00319EB4 /* RFCenteredLayout.m */,
+			);
+			name = RFCenteredLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0273C6541804752E00319EB4 /* CenteredLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0273C68A1804752F00319EB4 /* Build configuration list for PBXNativeTarget "CenteredLayout" */;
+			buildPhases = (
+				9011E41FC1B54EC38BC9E82C /* Check Pods Manifest.lock */,
+				0273C6511804752E00319EB4 /* Sources */,
+				0273C6521804752E00319EB4 /* Frameworks */,
+				0273C6531804752E00319EB4 /* Resources */,
+				52BD552C39804366922DEF88 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CenteredLayout;
+			productName = CenteredLayout;
+			productReference = 0273C6551804752E00319EB4 /* CenteredLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0273C6781804752F00319EB4 /* CenteredLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0273C68D1804752F00319EB4 /* Build configuration list for PBXNativeTarget "CenteredLayoutTests" */;
+			buildPhases = (
+				0273C6751804752F00319EB4 /* Sources */,
+				0273C6761804752F00319EB4 /* Frameworks */,
+				0273C6771804752F00319EB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0273C67F1804752F00319EB4 /* PBXTargetDependency */,
+			);
+			name = CenteredLayoutTests;
+			productName = CenteredLayoutTests;
+			productReference = 0273C6791804752F00319EB4 /* CenteredLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0273C64D1804752E00319EB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Bryce Redd";
+				TargetAttributes = {
+					0273C6781804752F00319EB4 = {
+						TestTargetID = 0273C6541804752E00319EB4;
+					};
+				};
+			};
+			buildConfigurationList = 0273C6501804752E00319EB4 /* Build configuration list for PBXProject "CenteredLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0273C64C1804752E00319EB4;
+			productRefGroup = 0273C6561804752E00319EB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0273C6541804752E00319EB4 /* CenteredLayout */,
+				0273C6781804752F00319EB4 /* CenteredLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0273C6531804752E00319EB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0273C66F1804752E00319EB4 /* Main_iPad.storyboard in Resources */,
+				0273C6741804752E00319EB4 /* Images.xcassets in Resources */,
+				0273C66C1804752E00319EB4 /* Main_iPhone.storyboard in Resources */,
+				0273C6631804752E00319EB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0273C6771804752F00319EB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0273C6851804752F00319EB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52BD552C39804366922DEF88 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9011E41FC1B54EC38BC9E82C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0273C6511804752E00319EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0273C6691804752E00319EB4 /* RFAppDelegate.m in Sources */,
+				0273C6961804888E00319EB4 /* RFCenteredLayout.m in Sources */,
+				0273C6651804752E00319EB4 /* main.m in Sources */,
+				0273C6721804752E00319EB4 /* RFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0273C6751804752F00319EB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0273C6871804752F00319EB4 /* CenteredLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0273C67F1804752F00319EB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0273C6541804752E00319EB4 /* CenteredLayout */;
+			targetProxy = 0273C67E1804752F00319EB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0273C6611804752E00319EB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0273C6621804752E00319EB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0273C66A1804752E00319EB4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0273C66B1804752E00319EB4 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0273C66D1804752E00319EB4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0273C66E1804752E00319EB4 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0273C6831804752F00319EB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0273C6841804752F00319EB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0273C6881804752F00319EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0273C6891804752F00319EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0273C68B1804752F00319EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9E0286FEAD498597D31791 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CenteredLayout/CenteredLayout-Prefix.pch";
+				INFOPLIST_FILE = "CenteredLayout/CenteredLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0273C68C1804752F00319EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9E0286FEAD498597D31791 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CenteredLayout/CenteredLayout-Prefix.pch";
+				INFOPLIST_FILE = "CenteredLayout/CenteredLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0273C68E1804752F00319EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CenteredLayout.app/CenteredLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CenteredLayout/CenteredLayout-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CenteredLayoutTests/CenteredLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0273C68F1804752F00319EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CenteredLayout.app/CenteredLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CenteredLayout/CenteredLayout-Prefix.pch";
+				INFOPLIST_FILE = "CenteredLayoutTests/CenteredLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0273C6501804752E00319EB4 /* Build configuration list for PBXProject "CenteredLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0273C6881804752F00319EB4 /* Debug */,
+				0273C6891804752F00319EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0273C68A1804752F00319EB4 /* Build configuration list for PBXNativeTarget "CenteredLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0273C68B1804752F00319EB4 /* Debug */,
+				0273C68C1804752F00319EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0273C68D1804752F00319EB4 /* Build configuration list for PBXNativeTarget "CenteredLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0273C68E1804752F00319EB4 /* Debug */,
+				0273C68F1804752F00319EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0273C64D1804752E00319EB4 /* Project object */;
+}

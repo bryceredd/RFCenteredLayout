@@ -1,0 +1,2 @@
+platform :ios, 7.0
+pod 'ConciseKit', '0.1.2' 
